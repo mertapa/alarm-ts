@@ -1,0 +1,36 @@
+/* AlarmPage.css */
+.alarm-form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .alarm-form button {
+    background-color: #e74c3c; /* Kırmızı */
+    color: #ffffff; /* Beyaz */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .alarm-form button:hover {
+    background-color: #c0392b; /* Koyu kırmızı */
+  }
+  
+  .alarm-list-item button {
+    background-color: #e74c3c; /* Kırmızı */
+    color: #ffffff; /* Beyaz */
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .alarm-list-item button:hover {
+    background-color: #c0392b; /* Koyu kırmızı */
+  }
+  

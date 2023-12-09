@@ -1,0 +1,46 @@
+/* AlarmPage.css */
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.alarm-list-item {
+  position: relative; /* Pozisyonu belirtiyoruz */
+}
+.alarm-list {
+  overflow: hidden; /* Animasyon sırasında içeriğin taşmasını engelle */
+}
+li{
+  list-style-type: none;
+}
+.alarm-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #34495e; /* Gri mavi tonu */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  animation: slideIn 0.3s ease; /* Animasyonu ekliyoruz */
+}
+
+.alarm-list-item span {
+  font-size: 1.2rem;
+}
+
+.alarm-list-item button {
+  background-color: #e74c3c; /* Kırmızı */
+  color: #ffffff; /* Beyaz */
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.alarm-list-item button:hover {
+  background-color: #c0392b; /* Koyu kırmızı */
+}

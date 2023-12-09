@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; /* Sayfa genelinde kullanılacak fontu belirtin */
+    background-color: #333333; /* Sayfa arka plan rengi */
+    color: #ffffff; /* Sayfa metin rengi */
+
+    min-height: 100vh;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .clock {
+    font-size: 5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #333333; /* Clock bileşeni arka plan rengi */
+  }
+  
